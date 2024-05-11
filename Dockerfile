@@ -1,3 +1,3 @@
-# Version 1.0
+# Version 1.1
 FROM nginx:latest
 COPY . /usr/share/nginx/html
