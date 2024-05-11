@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "akenkour/20-jenkins-push-registry"
+    registry = "akenkour/20-jenkinspushregistry"
     registryCredential = 'docker-creds'
     dockerImage = '20-jenkins-push-registry'
   }
