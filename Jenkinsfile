@@ -14,7 +14,6 @@ pipeline {
         git 'https://github.com/rakenkou-github/20-jenkinspushregistry.git'
       }
     }
-    /*
     
     stage('Building image') {
       steps{
@@ -24,7 +23,7 @@ pipeline {
       }
     }
 
-     
+/*     
     
     stage('Deploy Image') {
       steps{
